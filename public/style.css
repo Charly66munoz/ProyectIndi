@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}       
+/*Header*/
+#cabecera1{
+    background-color: #eac926;
+    color: #666;
+}
+#buttonSearchPop{
+    
+  padding: 5px 2px;
+}
+#cYc{text-align: center;}
+
+#botonCenter{
+    display: flex;
+  justify-content: center;
+}
+#menu1{
+
+    background-color: #1259c3;
+    border-radius: 7px;
+    width: 43px;
+    height: 45px;
+}
+
+
+/*main*/
+.store1 h3{
+    font-size: 23px;
+}
+
+.precio{font-size: 18px;}
+
+.discount{font-size: 16px;}
+
+.type{font-size: 16px;}

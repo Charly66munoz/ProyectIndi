@@ -4,16 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,100&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <header>
+    <header id="cabecera1">
             <img src="../public/img/logo-mercado-liebre.svg" alt="Logo Mercado Libre" width="400px"; height="200px">
-        <div id="SearchPop">        
-            <input type="text" placeholder="Buscar productor, marcas.."></input>
+        <div id="searchPop">        
+            <input type="text" placeholder="Buscar productor, marcas.."><br>
+            <button id="buttonSearchPop"><i class="fa-solid fa-magnifying-glass fa-lg"></i></button>
         </div>
         <div id="Split1">
-            <h1>Compra en cuotas y sin tarjeta de credito</h1>
+            <h3 id="cYc"><i class="fa-solid fa-hand-holding-dollar fa-sm" style="color: #666666;"></i></i> Compra en cuotas y sin tarjeta de credito</h3>
         </div>
         <div id="MainTAB">
             <ul type="none">
@@ -22,48 +27,52 @@
                 <li>Vender</li>
                 <li>Ayuda</li>
                 <br>
-                <li>Crea tu cuenta</li>
-                <li>Ingresa</li>
-                <li>Mis compras</li>
+                <li>Crea tu cuenta <i class="fa-regular fa-address-card" style="color: #03264c;"></i></i></li>
+                <li>Ingresa <i class="fa-solid fa-right-to-bracket fa-sm" style="color: #03264c;"></i></li>
+                <li>Mis compras <i class="fa-solid fa-basket-shopping" style="color: #03264c;"></i></li>
             </ul>
+            <br>
+            <div id="botonCenter" >
+                <button id="menu1"><i class="fa-solid fa-bars fa-xl" style="color: #ffffff;"></i></button>
+            </div>
         </div>
     </header>
     <main>  
-        <section class="Store1">
+        <section class="store1">
             <h3>Basado en su última visita</h3>
             <div class="producto">
                 <img src="../public/img/img-macbook-pro-2019.jpg" width="200" height="200">
                 <ul type="none">
-                    <li>2.550.000</li>
-                    <li>15% off</li>
-                    <li>Pro 2019</li>
+                    <li class="precio">2.550.000</li>
+                    <li class="discount">15% off</li>
+                    <li class="type">Pro 2019</li>
                 </ul>
             </div>
             <div class="producto">
                 <img src="../public/img/img-tv-samsung-smart.jpg" width="200" height="200">
                 <ul type="none">
-                    <li>450.000</li>
-                    <li>10% off</li>
-                    <li>Samsung smart tv Led</li>
+                    <li class="precio">450.000</li>
+                    <li class="discount">10% off</li>
+                    <li class="type">Samsung smart tv Led</li>
                 </ul>
             </div>
         </section>
-        <section class="Store2">
+        <section class="store1">
             <h3>Seccion de Ofertas</h3>
             <div class="producto">
                 <img src="../public/img/img-macbook-pro-2019.jpg" width="200" height="200">
                 <ul type="none">
-                    <li>1.550.000</li>
-                    <li>25% off</li>
-                    <li>Pro 2015</li>
+                    <li class="precio">1.550.000</li>
+                    <li class="discount">25% off</li>
+                    <li class="type">Pro 2015</li>
                 </ul>
             </div>
             <div class="producto">
                 <img src="../public/img/img-tv-samsung-smart.jpg" width="200" height="200">
                 <ul type="none">
-                    <li>1.730.050</li>
-                    <li>30% off</li>
-                    <li>Samsung smart tv Led Curve</li>
+                    <li class="precio">1.730.050</li>
+                    <li class="discount">30% off</li>
+                    <li class="type">Samsung smart tv Led Curve</li>
         </section>
     </main>
     <footer>
@@ -86,7 +95,6 @@
         </section>
         
     </footer>
-
-    
+    <script src="https://kit.fontawesome.com/6d6ec403c5.js" crossorigin="anonymous"></script>
 </body>
 </html>
