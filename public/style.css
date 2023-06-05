@@ -4,13 +4,16 @@ body{
     font-family: 'Roboto', sans-serif;
 }       
 /*Header*/
+#meanLogo{
+    display: flex;
+  justify-content: center;
+}
 #cabecera1{
     background-color: #eac926;
     color: #666;
 }
 #buttonSearchPop{
-    
-  padding: 5px 2px;
+    padding: 5px 2px;
 }
 #cYc{text-align: center;}
 
@@ -22,7 +25,7 @@ body{
 
     background-color: #1259c3;
     border-radius: 7px;
-    width: 43px;
+    width: 40px;
     height: 45px;
 }
 
@@ -37,3 +40,16 @@ body{
 .discount{font-size: 16px;}
 
 .type{font-size: 16px;}
+
+/*Footer*/
+.footer1{
+    text-align: center;
+}
+.footer1 p{
+    color: #666;
+}
+.iconsFoot{
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
