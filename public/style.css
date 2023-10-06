@@ -12,7 +12,22 @@ body{
     background-color: #eac926;
     color: #666;
 }
+#padre1{
+    text-align: center;
+}
+#meanLogo{
+    padding-top: 1em;
+}
+#Split1{
+    text-align: center;
+    padding: 1em;
+}
+#searchPop{
+    display: flex; 
+    align-items: center;
+}
 #buttonSearchPop{
+    
     padding: 5px 2px;
 }
 #cYc{text-align: center;}
@@ -94,12 +109,30 @@ body{
 
 }
 /*tablet*/
-@media  (max-width:768px) and (min-width:362px){
-    box-shadow: 0px 0px 10px rgb (100 , 100 , 100);
-
+@media   (min-width:362px)and(max-width:768px) {
+    /*box-shadow: 0px 0px 10px rgb (100 , 100 , 100);*/
+    #listasa{
+        font-size: 6px;}
 }
 /*tablet & mobile*/
-@media (min-width:361px) {
-    #botonCenter{display: none;}
-}
 
+@media (min-width:362px) {
+    #botonCenter{display: none;}
+    /*Header*/
+
+    #padre1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;}
+    }
+    /*body*/
+    #MainTAB{height:10px;
+    }
+    #listasa{
+        font-size: 14px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-around;
+    }
